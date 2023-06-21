@@ -1,7 +1,7 @@
 from pprint import pprint
 import requests
 import json
-git 
+
 def super_heroes_all():
     url = 'https://akabab.github.io/superhero-api/api/all.json'
     response = requests.get(url)
